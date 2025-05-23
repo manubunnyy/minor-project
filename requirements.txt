@@ -1,12 +1,9 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-
 streamlit==1.32.0
 easyocr==1.7.1
 opencv-python-headless==4.9.0.80
 numpy==1.26.4
-Pillow==10.1.0                    # Downgraded from 10.2.0 to avoid build error
+Pillow==10.2.0
 PyMuPDF==1.23.26
 google-generativeai==0.3.2
-
-torch==2.2.0+cpu                  # Downgrade to match available wheel
-torchvision==0.17.0+cpu          # Match with torch 2.2.0
+torch==2.1.2
+torchvision==0.16.1
